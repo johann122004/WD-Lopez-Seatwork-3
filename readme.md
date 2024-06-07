@@ -9,11 +9,11 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Headers and Footers Display Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This Seatwork Website is designed to demonstrate the capabilities of HTML and CSS in designing different variations of Headers and Footers
 </div>
 
 <br />
@@ -44,6 +44,9 @@
     </li>
     <li>
       <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+    </li>
+    <li>
+      <a href="#guide">Guide</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -111,6 +114,12 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
+
+## Guide
+#### How to use this website?
+1. In the website, you will be introduced to two buttons, each will take you to a new webpage, the header button will take you to the header webpage, and the footer button will take you to the footer webpage.
+2. In each webpage, you will be shown the static and animated versions of Headers and Footers, 5 examples each and are all interactable.
+3. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
 
 ## Resources
 

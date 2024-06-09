@@ -43,7 +43,7 @@
       </ol>
     </li>
     <li>
-      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#guide">Guide</a>
@@ -116,8 +116,9 @@ WD-ProjectName
 ## Guide
 #### How to use this website?
 1. In the website, you will be introduced to two buttons, each will take you to a new webpage, the header button will take you to the header webpage, and the footer button will take you to the footer webpage.
-2. In each webpage, you will be shown the static and animated versions of Headers and Footers, 5 examples each and are all interactable.
-3. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
+2. In each webpage, you will be shown the static and animated versions of Headers and Footers.
+3. There are 5 header designs each for static and animated versions, which are interactable.
+4. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
 
 ## Resources
 

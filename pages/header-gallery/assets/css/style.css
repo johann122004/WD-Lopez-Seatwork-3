@@ -9,7 +9,9 @@ header.d-one * {
 }
 
 body {
-    text-align: center;
+    & h1, h2, a{
+        text-align: center;
+    }
 }
 
 section.h-design-one{
@@ -22,15 +24,23 @@ header.d-one {
     padding: 0rem 5vw 0;
     align-items: center;
     margin: 0px;
-    background-color: rgb(160, 0, 0);
-    border: 5px solid black;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
     & img{
         width: 5%;
         height: 5%;
     }
     & a{
         font-family: 'Times New Roman', Times, serif;
-        color: aliceblue;
+        color: black;
         font-size: larger;
+        text-decoration: underline;
+        font-weight: bolder;
     }
 }
+
+section.h-design-two{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+head

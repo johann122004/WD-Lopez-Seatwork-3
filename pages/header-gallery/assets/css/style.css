@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header.d-one,
+header.d-one * {
+    outline: 1px blue dashed;
+}
+
+body {
+    text-align: center;
+}
+
+section.h-design-one{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.d-one {
+    display:flex;
+    justify-content: space-between;
+    padding: 0rem 5vw 0;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(160, 0, 0);
+    border: 5px solid black;
+    & img{
+        width: 5%;
+        height: 5%;
+    }
+    & a{
+        font-family: 'Times New Roman', Times, serif;
+        color: aliceblue;
+        font-size: larger;
+    }
+}

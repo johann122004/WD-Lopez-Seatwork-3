@@ -102,8 +102,8 @@ header.d-s-three .buttons{
     align-items: center;
     justify-content: end;
     & img {
-        width: 5%;
-        height: 5%;
+        width: 25%;
+        height: 25%;
         border: 3px solid black;
         border-radius: 50%;
         margin-left: 25px;

@@ -19,11 +19,11 @@ body {
     }
 }
 
-section.h-design-one{
+section.h-s-design-one{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header.d-one {
+header.d-s-one {
     display:flex;
     justify-content: space-between;
     padding: .8rem 5vw;
@@ -44,11 +44,11 @@ header.d-one {
     }
 }
 
-section.h-design-two{
+section.h-s-design-two{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-header.d-two {
+header.d-s-two {
     display:flex;
     padding: .8rem 5vw;
     align-items: center;

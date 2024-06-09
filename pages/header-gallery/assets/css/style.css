@@ -3,13 +3,13 @@
     margin: 0;
 }
 
-header.d-one,
-header.d-one * {
+header.d-s-one,
+header.d-s-one * {
     outline: 1px blue dashed;
 }
 
-header.d-two,
-header.d-two * {
+header.d-s-two,
+header.d-s-two * {
     outline: 1px rgb(229, 255, 0) dashed;
 }
 
@@ -26,7 +26,7 @@ section.h-s-design-one{
 header.d-s-one {
     display:flex;
     justify-content: space-between;
-    padding: .8rem 5vw;
+    padding: 0rem 5vw;
     align-items: center;
     margin: 0px;
     background-color: rgb(255, 255, 255);
@@ -41,6 +41,7 @@ header.d-s-one {
         font-size: larger;
         text-decoration: underline;
         font-weight: bolder;
+        font-size: 30px;
     }
 }
 
@@ -50,9 +51,8 @@ section.h-s-design-two{
 
 header.d-s-two {
     display:flex;
-    padding: .8rem 5vw;
     align-items: center;
-    margin: 0px;
+    justify-content: end;
     background-color: black;
     & img{
         width: 7.5%;
@@ -64,9 +64,9 @@ header.d-s-two {
         font-size: 30px;
         text-decoration: underline;
         font-weight: bolder;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }

@@ -18,6 +18,17 @@ header.d-s-three * {
     outline: 1px rgb(9, 255, 0) dashed;
 }
 
+header.d-s-four,
+header.d-s-four * {
+    outline: 1px rgb(255, 0, 0) dashed;
+}
+
+header.d-s-five,
+header.d-s-five * {
+    outline: 1px rgb(212, 0, 255) dashed;
+}
+
+
 body {
     & h1, h2, a{
         text-align: center;
@@ -57,7 +68,7 @@ section.h-s-design-two{
 header.d-s-two {
     display:flex;
     align-items: center;
-    justify-content: end;
+    justify-content: start;
     background-color: black;
     & img{
         width: 5%;
@@ -102,8 +113,8 @@ header.d-s-three .buttons{
     align-items: center;
     justify-content: end;
     & img {
-        width: 25%;
-        height: 25%;
+        width: 10%;
+        height: 10%;
         border: 3px solid black;
         border-radius: 50%;
         margin-left: 25px;
@@ -111,10 +122,32 @@ header.d-s-three .buttons{
     & a{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(255, 255, 255);
-        font-size: 30px;
+        font-size: 20px;
         text-decoration: underline , overline;
         font-weight: bolder;
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+header.d-s-four{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+header.d-s-five{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    border: 10px solid rgb(0, 102, 255);
+}
+
+header.d-s-five .logo-image{
+    margin-left: 25px;
+}
+
+header.d-s-five .menu-image{
+    margin-right: 25px;
 }

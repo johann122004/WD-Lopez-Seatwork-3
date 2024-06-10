@@ -151,3 +151,42 @@ header.d-s-five .logo-image{
 header.d-s-five .menu-image{
     margin-right: 25px;
 }
+
+section.h-a-design-one{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header.d-a-one{
+    display:flex;
+    justify-content: space-between;
+    padding: 0rem 5vw;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: aqua;
+    }
+    &> img.animated-logo-one{
+        width: 5%;
+        height: 5%;
+        transition: all 0.3s ease;
+
+        &:hover{
+            transform: rotateX(360deg);
+        }
+    }
+    & a{
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        font-size: larger;
+        text-decoration: underline;
+        font-weight: bolder;
+        font-size: 30px;
+        transition: 1s;
+        &:hover{
+            background: rgb(255, 0, 0);
+        }
+    }
+}

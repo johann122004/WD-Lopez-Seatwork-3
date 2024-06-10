@@ -124,5 +124,6 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| CSS rotate Property | For Rotation Manipulation for Animated Headers and Footers. | https://www.w3schools.com/cssref/css_pr_rotate.php |
+| CSS Transitions | For Smooth Transition to different colors and symbols. | https://www.w3schools.com/css/css3_transitions.asp |
+| CSS :hover Selector | Vital component for Animations. | https://www.w3schools.com/cssref/sel_hover.php |

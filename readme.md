@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/johann122004/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/mark-down-logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Headers and Footers Display Website</h3>
@@ -49,6 +49,9 @@
       <a href="#guide">Guide</a>
     </li>
     <li>
+      <a href="#answers">Answers</a>
+    </li>
+    <li>
       <a href="#resources">Resources</a>
     </li>
   </ol>
@@ -86,6 +89,8 @@ Guiding Question:
 4. All file naming are in camel case.
    - Camel case is naming format where there is no white space in separation of each words, the first word is in all lower case while the succeding words first letter are in upper followed by lower cased letters.
    - ex.: buttonAnimatedStyle.css
+    - For this Seatwork however, lower-kebab-case will be used instead. lower-kebab-case is a naming format where spaces are replaced with hyphens, and words are all lower cased.
+    - ex.: funny-man.jpg
 5. Use only `External CSS`.
 6. Renaming of Pages folder names are a must, and relates to what it is doing or data it holding.
 7. File Structure to follow below.
@@ -119,6 +124,12 @@ WD-ProjectName
 2. In each webpage, you will be shown the static and animated versions of Headers and Footers.
 3. There are 5 header designs each for static and animated versions, which are interactable.
 4. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
+
+## Answers
+1. The Project is an HTML Website with External CSS Styling that features static and Animated Headers and Footers.
+2. The Purpose of this project is to serve as Seatwork #003 for Web Design with Client-Side Scripting.
+3. The Key components are that the Project is a Multi-Page Website, and that it has Animated Features. For the Multipage Website part, the project features a landing page and 2 pages, each focusing on the static and animated examples of Headers and Footers. For the Animated Features part, the website has Headers and Footers that are animated and can be interacted with.
+4. The Technology that is used are HTML and CSS. HTML is used to create the Website, while CSS is used to style and design the website, including adding animations to it.
 
 ## Resources
 

@@ -34,6 +34,9 @@
     <li>
       <a href="#overview">Overview</a>
       <ol>
+      <li>
+        <a href="#answers">Answers</a>
+      </li>
         <li>
           <a href="#key-components">Key Components</a>
         </li>
@@ -43,13 +46,13 @@
       </ol>
     </li>
     <li>
+      <a href="#Deployment-Link">Deployment Link</a>
+    </li>
+    <li>
       <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#guide">Guide</a>
-    </li>
-    <li>
-      <a href="#answers">Answers</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -71,6 +74,13 @@ Guiding Question:
 - What are key components
 - What technology used and how it is used
 
+### Answers
+#### For the Guiding Questions.
+1. The Project is an HTML Website with External CSS Styling that features static and Animated Headers and Footers.
+2. The Purpose of this project is to serve as Seatwork #003 for Web Design with Client-Side Scripting.
+3. The Key components are that the Project is a Multi-Page Website, and that it has Animated Features. For the Multipage Website part, the project features a landing page and 2 pages, each focusing on the static and animated examples of Headers and Footers. For the Animated Features part, the website has Headers and Footers that are animated and can be interacted with.
+4. The Technology that is used are HTML and CSS. HTML is used to create the Website, while CSS is used to style and design the website, including adding animations to it.
+
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
@@ -81,6 +91,11 @@ Guiding Question:
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+## Deployment Link
+#### Link for the deployed Website
+
+|https://johann122004.github.io/WD-Lopez-Seatwork-3/|
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -124,12 +139,6 @@ WD-ProjectName
 2. In each webpage, you will be shown the static and animated versions of Headers and Footers.
 3. There are 5 header designs each for static and animated versions, which are interactable.
 4. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
-
-## Answers
-1. The Project is an HTML Website with External CSS Styling that features static and Animated Headers and Footers.
-2. The Purpose of this project is to serve as Seatwork #003 for Web Design with Client-Side Scripting.
-3. The Key components are that the Project is a Multi-Page Website, and that it has Animated Features. For the Multipage Website part, the project features a landing page and 2 pages, each focusing on the static and animated examples of Headers and Footers. For the Animated Features part, the website has Headers and Footers that are animated and can be interacted with.
-4. The Technology that is used are HTML and CSS. HTML is used to create the Website, while CSS is used to style and design the website, including adding animations to it.
 
 ## Resources
 

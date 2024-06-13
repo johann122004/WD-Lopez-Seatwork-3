@@ -296,8 +296,15 @@ header.d-a-three .buttons{
         padding-left: 20px;
         padding-right: 20px;
         transition: .5s;
-    }
         &:hover{
             transform: scale(2);
         }
+    }
+}
+
+header.d-a-four{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: blanchedalmond;
 }

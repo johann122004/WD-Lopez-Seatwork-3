@@ -49,10 +49,10 @@
       <a href="#Deployment-Link">Deployment Link</a>
     </li>
     <li>
-      <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#guide">Guide</a>
     </li>
     <li>
-      <a href="#guide">Guide</a>
+      <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -97,6 +97,13 @@ Guiding Question:
 
 |https://johann122004.github.io/WD-Lopez-Seatwork-3/|
 
+## Guide
+#### How to use this website?
+1. In the website, you will be introduced to two buttons, each will take you to a new webpage, the header button will take you to the header webpage, and the footer button will take you to the footer webpage.
+2. In each webpage, you will be shown the static and animated versions of Headers and Footers.
+3. There are 5 header designs each for static and animated versions, which are interactable.
+4. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
+
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
@@ -132,13 +139,6 @@ WD-ProjectName
 └─ index.html
 └─ readme.md
 ```
-
-## Guide
-#### How to use this website?
-1. In the website, you will be introduced to two buttons, each will take you to a new webpage, the header button will take you to the header webpage, and the footer button will take you to the footer webpage.
-2. In each webpage, you will be shown the static and animated versions of Headers and Footers.
-3. There are 5 header designs each for static and animated versions, which are interactable.
-4. If you are feeling that you want to go back to the homepage, each webpage has a return to homepage button.
 
 ## Resources
 

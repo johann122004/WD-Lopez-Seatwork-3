@@ -137,11 +137,19 @@ header.d-s-three .buttons{
     }
 }
 
+section.h-s-design-four{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header.d-s-four{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: blanchedalmond;
+}
+
+section.h-s-design-five{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-s-five{
@@ -266,7 +274,7 @@ header.d-a-three .image img.animated-logo-three-hover{
     display: none;
 }
 
-header.d-a-three .image:hover img.animated-logo-three {;
+header.d-a-three .image:hover img.animated-logo-three {
     visibility: hidden;
 }
 
@@ -302,9 +310,48 @@ header.d-a-three .buttons{
     }
 }
 
+section.h-a-design-four{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header.d-a-four{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: blanchedalmond;
+    & .symbol-home{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px blue);
+        }
+    }
+    & .symbol-about{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px yellow);
+        }
+    }
+    & .symbol-email{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px green);
+        }
+    }
+    & .symbol-shop{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px red);
+        }
+    }
+    & .main-logo{
+        transition: .5s;
+        &:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 10px violet);
+        }
+    }
 }

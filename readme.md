@@ -95,7 +95,7 @@ Guiding Question:
 ## Deployment Link
 #### Link for the deployed Website
 
-|johann122004.github.io/WD-Lopez-Seatwork-3/|
+https://johann122004.github.io/WD-Lopez-Seatwork-3/
 
 ## Guide
 #### How to use this website?

@@ -147,3 +147,5 @@ WD-ProjectName
 | CSS rotate Property | For Rotation Manipulation for Animated Headers and Footers. | https://www.w3schools.com/cssref/css_pr_rotate.php |
 | CSS Transitions | For Smooth Transition to different colors and symbols. | https://www.w3schools.com/css/css3_transitions.asp |
 | CSS :hover Selector | Vital component for Animations. | https://www.w3schools.com/cssref/sel_hover.php |
+| CSS translate Property | For moving items in CSS | https://www.w3schools.com/cssref/css_pr_translate.php |
+| [HTML] - How to remove underline from an HTML link with CSS | For hiding secret links. | https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=To%20remove%20the%20underline%20from%20an%20HTML%20link%2C%20you%20can,any%20of%20its%20other%20styles. |

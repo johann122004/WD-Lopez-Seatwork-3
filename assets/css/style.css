@@ -3,12 +3,12 @@
     margin: 0;
 }
 
-
+/*
 body,
 body * {
     outline: 1px blue dashed;
 }
-
+*/
 body {
     padding-top: 100px;
     text-align: center;

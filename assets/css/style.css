@@ -3,37 +3,38 @@
     margin: 0;
 }
 
-/*
+
 body,
 body * {
     outline: 1px blue dashed;
 }
-*/
+
 body {
     padding-top: 100px;
     text-align: center;
     background-color: rgb(255, 255, 155);
-    background-image: linear-gradient(to right,rgb(255, 255, 155), rgb(134, 221, 255))
-    ;
+    background-image: linear-gradient(to right,rgb(255, 255, 155), rgb(134, 221, 255));
     & h1 {
         padding-top: 25px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(24, 192, 88);
+        color: rgb(196, 40, 40);
+        text-decoration: underline over;
     }
     & h3 {
         padding-top: 25px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(24, 192, 88);
+        color: rgb(196, 40, 40);
     }
     & p {
         padding-top: 25px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(24, 192, 88);
+        color: rgb(196, 40, 40);
+        font-weight: bold;
     }
     & a {
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-size: large;
-        color: rgb(24, 192, 88);
+        color: rgb(196, 40, 40);
         margin: 50px;
     }
 }

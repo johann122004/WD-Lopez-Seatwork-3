@@ -39,7 +39,11 @@ body {
     }
 }
 
-section.h-s-design-one{
+section.h-s-design{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section.h-a-design{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -64,11 +68,6 @@ header.d-s-one {
         font-size: 30px;
     }
 }
-
-section.h-s-design-two{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 header.d-s-two {
     display:flex;
     align-items: center;
@@ -89,10 +88,6 @@ header.d-s-two {
         margin-left: 20px;
         margin-right: 20px;
     }
-}
-
-section.h-s-design-three{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-s-three {
@@ -119,21 +114,11 @@ header.d-s-three .items {
     }
 }
 
-section.h-s-design-four{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 header.d-s-four{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     background-color: blanchedalmond;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-section.h-s-design-five{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-s-five{
@@ -146,10 +131,6 @@ header.d-s-five .symbols{
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
-}
-
-section.h-a-design-one{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-a-one{
@@ -187,10 +168,6 @@ header.d-a-one{
     }
 }
 
-section.h-a-design-two{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 header.d-a-two {
     display:flex;
     align-items: center;
@@ -219,10 +196,6 @@ header.d-a-two {
             color: red;
         }
     }
-}
-
-section.h-a-design-three{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-a-three {
@@ -273,10 +246,6 @@ header.d-a-three .items:hover img.animated-logo{
     display: block;
 }
 
-section.h-a-design-four{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 header.d-a-four{
     display: flex;
     align-items: flex-end;
@@ -317,10 +286,6 @@ header.d-a-four{
             filter: drop-shadow(0 0 10px violet);
         }
     }
-}
-
-section.h-a-design-five{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 header.d-a-five{

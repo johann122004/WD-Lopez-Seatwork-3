@@ -8,7 +8,7 @@ footer.s-design-one * {
     outline: 1px blue dashed;
 }
 
-section.f-s-design-one{
+section.f-s-design{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -28,5 +28,24 @@ footer.d-s-one .column{
     background-color: brown;
     & h4, p{
         color: white;
+    }
+}
+
+footer.d-s-two{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: black;
+    border: 5px solid white;
+}
+
+footer.d-s-two .left {
+    padding-left: 50px;
+    & img{
+        width: 100px;
+        height: 100px;
+        filter: drop-shadow(0 0 10px white);
     }
 }

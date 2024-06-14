@@ -35,17 +35,24 @@ footer.d-s-two{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black;
     border: 5px solid white;
 }
 
 footer.d-s-two .left {
-    padding-left: 50px;
+    padding-left: 100px;
     & img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         filter: drop-shadow(0 0 10px white);
+    }
+}
+
+footer.d-s-two .right {
+    padding-right: 100px;
+    & h4, p{
+        color: white;
     }
 }

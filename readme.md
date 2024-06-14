@@ -93,7 +93,7 @@ Guiding Question:
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Deployment Link
-#### Link for the deployed Website
+### Link for the deployed Website
 
 https://johann122004.github.io/WD-Lopez-Seatwork-3/
 

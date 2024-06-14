@@ -38,7 +38,7 @@ footer.d-s-two{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
-    border: 5px solid white;
+    border: 5px solid rgb(160, 160, 160);
 }
 
 footer.d-s-two .left {
@@ -55,4 +55,14 @@ footer.d-s-two .right {
     & h4, p{
         color: white;
     }
+}
+
+footer.d-s-three{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 5px solid;
 }

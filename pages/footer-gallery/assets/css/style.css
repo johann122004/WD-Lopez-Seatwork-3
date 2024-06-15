@@ -3,8 +3,8 @@
     margin: 0;
 }
 
-footer.s-design-one,
-footer.s-design-one * {
+footer.d-s-one,
+footer.d-s-one * {
     outline: 1px blue dashed;
 }
 
@@ -13,35 +13,52 @@ section.f-s-design{
 }
 
 footer.d-s-one{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
     background-color: aqua;
     border: 5px solid;
+    & p{
+        text-align: center;
+        font-weight: bold;
+    }
 }
 footer.d-s-one .column{
-    margin: auto;
-    padding: 5px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
     border: 3px solid;
     background-color: brown;
     & h4, p{
+        text-align: center;
         color: white;
     }
 }
 
-footer.d-s-two{
-    display:flex;
+footer.d-s-one .cpr{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    & p {
+        font-size: large;
+    }
+}
+
+footer.d-s-two{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: black;
     border: 5px solid rgb(160, 160, 160);
+    & p{
+        text-align: center;
+        color: white;
+    }
 }
 
-footer.d-s-two .left {
+footer.d-s-two .separation{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer.d-s-two .separation .left {
     padding-left: 100px;
     & img{
         width: 200px;
@@ -50,7 +67,7 @@ footer.d-s-two .left {
     }
 }
 
-footer.d-s-two .right {
+footer.d-s-two .separation .right {
     padding-right: 100px;
     & h4, p{
         color: white;
@@ -58,11 +75,24 @@ footer.d-s-two .right {
 }
 
 footer.d-s-three{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: white;
     border: 5px solid;
+}
+
+footer.d-s-three .dscrpt{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+footer.d-s-three .scmi{
+    display:flex;
+    justify-content: center;
+    & img{
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

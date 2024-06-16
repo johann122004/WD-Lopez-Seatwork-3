@@ -150,3 +150,4 @@ WD-ProjectName
 | CSS translate Property | For moving items in CSS | https://www.w3schools.com/cssref/css_pr_translate.php |
 | [HTML] - How to remove underline from an HTML link with CSS | For hiding secret links. | https://www.shecodes.io/athena/62460-how-to-remove-underline-from-an-html-link-with-css#:~:text=To%20remove%20the%20underline%20from%20an%20HTML%20link%2C%20you%20can,any%20of%20its%20other%20styles. |
 | How To Add Footer in Html Website | For further guide in Footer design | https://www.youtube.com/watch?v=nkZz9DOBzBI&t=129s |
+| Add Background Image to Footer | To add an image to either a header or a footer | https://forum.squarespace.com/topic/157263-add-background-image-to-footer/ |

@@ -28,7 +28,17 @@ footer.d-s-five * {
     outline: 1px black dashed;
 }
 
-section.f-s-design{
+body {
+    & h1, h2{
+        text-align: center;
+    }
+    & a{
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+section.f-design{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

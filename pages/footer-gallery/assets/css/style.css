@@ -362,7 +362,7 @@ footer.d-a-four .sections .section-three{
     }
 }
 
-footer.d-s-five{
+footer.d-a-five{
     background-color: rgb(180, 231, 255);
     padding-top: 10px;
     padding-bottom: 10px;
@@ -372,14 +372,14 @@ footer.d-s-five{
     }
 }
 
-footer.d-s-five .sections{
+footer.d-a-five .sections{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-footer.d-s-five .sections .section-one{
+footer.d-a-five .sections .section-one{
     & img {
         margin-left: 25px;
         margin-right: 25px;
@@ -388,7 +388,7 @@ footer.d-s-five .sections .section-one{
     }
 }
 
-footer.d-s-five .sections .section-two{
+footer.d-a-five .sections .section-two{
     & p {
         color: rgb(150, 150, 150);
         text-decoration: underline;
@@ -397,7 +397,7 @@ footer.d-s-five .sections .section-two{
     }
 }
 
-footer.d-s-five .sections .section-three{
+footer.d-a-five .sections .section-three{
     & img {
         margin-left: 25px;
         margin-right: 25px;

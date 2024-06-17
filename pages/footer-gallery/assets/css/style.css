@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
 }
-
+/*
 footer.d-s-one,
 footer.d-s-one * {
     outline: 1px blue dashed;
@@ -27,7 +27,7 @@ footer.d-s-five,
 footer.d-s-five * {
     outline: 1px black dashed;
 }
-
+*/
 body {
     & h1, h2{
         text-align: center;
@@ -54,7 +54,7 @@ footer.d-s-one{
 footer.d-s-one .diver{
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 footer.d-s-one .diver .column{
@@ -201,6 +201,7 @@ footer.d-s-five .sections .section-one{
     & img {
         margin-left: 25px;
         margin-right: 25px;
+        margin-top: 20px;
         width: 50px;
         height: 50px;
     }
@@ -225,29 +226,39 @@ footer.d-s-five .sections .section-three{
 }
 
 footer.d-a-one{
-    background-color: aqua;
+    background-color: transparent;
     border: 5px solid;
     & p{
         text-align: center;
         font-weight: bold;
+    }
+    transition: 5s;
+    &:hover{
+        background-color: aqua;
     }
 }
 
 footer.d-a-one .diver{
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 footer.d-a-one .diver .column{
     margin-top: 10px;
     margin-left: 100px;
     margin-right: 100px;
-    border: 3px solid;
-    background-color: brown;
+    transition: 2.5s;
     & h4, p{
-        text-align: center;
-        color: white;
+        color: transparent;
+    }
+    &:hover{
+        background-color: brown;
+        border: 3px solid;
+        & h4, p{
+            text-align: center;
+            color: white;
+        }
     }
 }
 
@@ -279,7 +290,10 @@ footer.d-a-two .separation .left {
     & img{
         width: 100px;
         height: 100px;
-        filter: drop-shadow(0 0 10px white);
+        transition: .5s;
+        &:hover{
+            filter: drop-shadow(0 0 10px white);
+        }
     }
 }
 
@@ -296,6 +310,10 @@ footer.d-a-three{
     background-color: rgb(255, 155, 155);
     background-image: linear-gradient( rgb(255, 155, 155), rgb(255, 255, 123) );
     border: 5px solid;
+    transition: background-image 5s;
+    &:hover{
+        background-image: linear-gradient( rgb(155, 227, 255), rgb(145, 255, 123) );
+    }
 }
 
 footer.d-a-three .dscrpt{
@@ -311,17 +329,27 @@ footer.d-a-three .scmi{
         width: 50px;
         margin-left: 10px;
         margin-right: 10px;
+        transition: .5s;
+        &:hover{
+            transform: scale(1.5);
+        }
     }
 }
 
 footer.d-a-four {
-    background-image: url(../img/footer-background-four.jpg);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    & p{
-        color: white;
+    background-color: transparent;
+    border: 5px solid;
+    transition: 1s;
+    &:hover{
+        background-image: url(../img/footer-background-four.jpg);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        & p{
+            color: white;
+        }
     }
+
 }
 
 footer.d-a-four .sections{
@@ -338,6 +366,10 @@ footer.d-a-four .sections .section-one{
     }
     & a{
         color: rgb(148, 95, 95);
+        transition: .5s;
+        &:hover{
+            background-color: black;
+        }
     }
 }
 
@@ -350,6 +382,10 @@ footer.d-a-four .sections .section-two{
     }
     & a{
         color: rgb(148, 95, 95);
+        transition: .5s;
+        &:hover{
+            background-color: black;
+        }
     }
 }
 
@@ -383,25 +419,39 @@ footer.d-a-five .sections .section-one{
     & img {
         margin-left: 25px;
         margin-right: 25px;
+        margin-top: 20px;
         width: 50px;
         height: 50px;
+        transition: 1s;
+        &:hover{
+            transform: rotateZ(360deg);
+        }
     }
 }
 
 footer.d-a-five .sections .section-two{
-    & p {
-        color: rgb(150, 150, 150);
+    p{
         text-decoration: underline;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-weight: bold;
-    }
+        transition: .5s;
+        &:hover{
+            translate: 0 -10px;
+                & p {
+                    color: rgb(150, 150, 150);
+                }
+            }
+        }
 }
-
 footer.d-a-five .sections .section-three{
     & img {
         margin-left: 25px;
         margin-right: 25px;
         width: 50px;
         height: 50px;
+        transition: .5s;
+        &:hover{
+            filter: drop-shadow(0 0 25px white);
+        }
     }
 }
